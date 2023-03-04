@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- css links -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="text-dark">Click the button to change the text</h1>
+    <button type="button" class="btn btn-dark" onclick="textChange()">Click me</button>
+    <h5 id="h5">Please Change me</h5>
+  </div>
+
+  <div class="container">
+    <h1 class="text-dark">Click me to display Date and Time</h1>
+    <button type="button" class="btn btn-dark" onclick="dateChange()">Click me</button>
+    <br>
+    <p1 id="date"></p1>
+  </div>
+
+  <div class="container">
+    <h1 class="text-dark">Click the button to change the light</h1>
+    <button type="button" class="btn btn-dark" onclick="on()">Light On</button>
+    <button type="button" class="btn btn-dark" onclick="off()">Light Off</button>
+    <img id="img" src="images/off.gif" alt="">
+  </div>
+
+  <div class="container">
+    <h1 class="text-dark">Click the button to change the text</h1>
+    <button type="button" class="btn btn-dark" onclick="sizeChange()">Font Size</button>
+    <p id="size">Font Size Change</p>
+  </div>
+
+  <div class="container">
+    <h1 class="text-dark">Click the button to Hide the text</h1>
+    <button type="button" class="btn btn-dark" onclick="textHide()">Click me</button>
+    <h5 id="hide">Hello Please Hide All Text</h5>
+  </div>
+
+  <div class="container">
+    <h1 class="text-dark">Click the button to Show the text</h1>
+    <button type="button" class="btn btn-dark" onclick="textShow()">Click me</button>
+    <h5 id="show" style="display:none">Hello Please Show All Text</h5>
+  </div>
+
+  <div class="container">
+    <h1 class="text-dark">Click the button to Show alert message</h1>
+    <button type="button" class="btn btn-dark" onclick="sms()">Alert</button>
+  </div>
+
+  <div class="container">
+    <h1 class="text-dark">Click the button to Show Console message</h1>
+    <button type="button" class="btn btn-dark" onclick="consoleShow()">Click me</button>
+  </div>
+
+  <div class="container">
+    <h1 class="text-dark">Click the button to Show Result</h1>
+    <button type="button" class="btn btn-dark" onclick="bestOutput()">Click me</button>
+    <h3 id="math"></h3>
+  </div>
+
+  <div class="container">
+    <h1 class="text-dark">Click the button to Show Code Block</h1>
+    <button type="button" class="btn btn-dark" onclick="practise()">Click me</button>
+    <h5 id="demo1"></h5>
+    <h5 id="demo2"></h5>
+  </div>
+
+  <div class="container">
+    <h1 class="text-dark">Number can be written with decimals</h1>
+    <button type="button" class="btn btn-dark" onclick="numbers()">Click me</button>
+    <h5 id="demo3"></h5>
+  </div>
+
+  <div class="container">
+    <h1 class="text-dark">JavaScript arithmetic operators to compute values</h1>
+    <button type="button" class="btn btn-dark" onclick="arith()">Click me</button>
+    <h5 id="demo4"></h5>
+  </div>
+
+
+
+
+
+
+
+  <!-- js links -->
+  <script src="js/jquery-3.6.3.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
